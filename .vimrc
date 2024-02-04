@@ -65,6 +65,7 @@ set mouse+=a
 set t_Co=256
 set ttyfast
 
+let g:ycm_python_binary_path = '/opt/homebrew/opt/python@3.11/bin/python3.11'
 set background=dark
 color slate
 let &t_ti.="\e[1 q"
@@ -90,7 +91,9 @@ set list
 set listchars=tab:>-
 set display+=lastline
 set incsearch
-
+set smartindent
+set autoindent
+let g:EasyMotion_do_mapping = 1
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
 " for movement, rather than using more efficient movement commands, is also a
