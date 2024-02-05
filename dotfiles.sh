@@ -15,6 +15,7 @@ if [[ $? = 0 ]]; then
     git clone https://github.com/tpope/vim-repeat.git ~/.vim/pack/plugins/start/vim-repeat
     git clone https://github.com/tmhedberg/SimpylFold.git ~/.vim/pack/plugins/start/SimpylFold
     git clone https://github.com/easymotion/vim-easymotion ~/.vim/pack/plugins/start/vim-easymotion 
+    git clone https://github.com/jpalardy/vim-slime.git   ~/.vim/pack/plugins/start/vim-slime 
   fi
   if [[ -f ~/.bashrc.local ]]; then
     echo "source ~/.bashrc.local" >> ~/.bashrc

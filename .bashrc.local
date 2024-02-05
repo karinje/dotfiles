@@ -17,3 +17,4 @@ export PATH="$HOME/gems/bin:$PATH"
 
 eval "$(gh completion -s bash)"
 
+export PYTHONPATH=/Users/sanjaykarinje/git/ball_tracking_3d:$PYTHONPATH
