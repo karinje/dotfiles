@@ -94,6 +94,8 @@ set incsearch
 set smartindent
 set autoindent
 let g:EasyMotion_do_mapping = 1
+let g:slime_target = "tmux"                                                        
+let g:slime_python_ipython = 1                                                     
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
 " for movement, rather than using more efficient movement commands, is also a
