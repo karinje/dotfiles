@@ -2,7 +2,7 @@ cd
 shopt -s expand_aliases
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 echo ".cfg" >> .gitignore
-DOTFILES_URL=https://github.com/sanjaykarinje/dotfiles.git
+DOTFILES_URL=https://github.com/karinje/dotfiles.git
 git clone --bare $DOTFILES_URL .cfg/
 config checkout
 # only continue if checkout had no errors
