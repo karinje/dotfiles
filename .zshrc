@@ -10,7 +10,7 @@ else
     if [ -f "/Users/sanjaykarinje/mambaforge/etc/profile.d/conda.sh" ]; then
         . "/Users/sanjaykarinje/mambaforge/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/sanjaykarinje/mambaforge/bin:$PATH"
+        export PATH="/Users/sanjaykarinje/mambaforge/bin:/home/ubuntu/test-storage/miniconda3/bin:;$PATH"
     fi
 fi
 unset __conda_setup
@@ -35,4 +35,4 @@ HISTSIZE=999
 setopt HIST_EXPIRE_DUPS_FIRST
 
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-export PYTHONPATH=/Users/sanjaykarinje/git/ball_tracking_3d:$PYTHONPATH
+export PYTHONPATH=/Users/sanjaykarinje/git/ball_tracking_3d:/home/ubuntu/test-storage/git/ball_tracking_3d:$PYTHONPATH
