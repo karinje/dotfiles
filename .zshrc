@@ -22,7 +22,7 @@ export PATH=~/.local/bin:$PATH
 export PATH="/usr/bin/git:$PATH"
 
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
+source /home/ubuntu/test-storage/zsh-history-substring-search.zsh
 
 # initialize autocompletion
 autoload -U compinit && compinit
